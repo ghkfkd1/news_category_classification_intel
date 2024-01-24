@@ -48,6 +48,7 @@ for l in range(1):
             df_section_title['category'] = category[l]
             df_section_title.to_csv('./crawling_data/data_{}_{}.csv'.format(l, k))
         #df_titles = pd.concat([df_titles, df_section_title], axis='row', ignore_index=True)
+        #new_line
 
 #df_titles.to_csv()
 driver.close() #브라우저 닫음.
